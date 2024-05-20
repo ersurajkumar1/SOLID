@@ -24,7 +24,6 @@ class PaymentProcesor {
 class CreditCardPaymentProcessor implements IPaymentProcessor {
     processPayment(amount: number) {
         console.log(`Processing payment of ${amount} using credit card`);
-        return true;
     }
 }
 
